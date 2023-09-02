@@ -2,138 +2,265 @@
   "movies": [
     {
       "id": "1",
-      "title": "Fast & Furius 1",
+      "title": "The Shawshank Redemption",
       "rating": 9.2,
-      "year": 1999  
+      "year": 1999,
+      "genre": {
+        "id": "5",
+        "name": "Drama"
+      }
     },
     {
       "id": "2",
       "title": "The Godfather",
       "year": 1999,
+      "genre": {
+        "id": "6",
+        "name": "Crime"
+      },
       "rating": 9.2
     },
     {
       "id": "3",
       "title": "The Godfather: Part II",
-      "year": 1999, 
+      "year": 1999,
+      "genre": {
+        "id": "6",
+        "name": "Crime"
+      },
       "rating": 9
     },
     {
       "id": "4",
-      "title": "Fast & Furius 2",
-      "year": 2000,   
+      "title": "The Dark Knight",
+      "year": 2000,
+      "genre": {
+        "id": "1",
+        "name": "Action"
+      },
       "rating": 9
     },
     {
       "id": "5",
-      "title": "Fast & Furius 3",
+      "title": "12 Angry Men",
       "rating": 8.9,
-      "year": 2001
+      "year": 2001,
+      "genre": {
+        "id": "5",
+        "name": "Drama"
+      }
     },
     {
       "id": "6",
-      "title": "Avengers",
-      "year": 2000,  
+      "title": "Pulp Fiction",
+      "year": 2000,
+      "genre": {
+        "id": "6",
+        "name": "Crime"
+      },
       "rating": 8.9
     },
     {
       "id": "7",
-      "title": "Fast & Furius 4",
+      "title": "The Sixth Sense",
       "year": 2002,
+      "genre": {
+        "id": "2",
+        "name": "Thriller"
+      },
       "rating": 8.6
     },
     {
       "id": "8",
-      "title": "Avengers: Endgame",
-      "year": 1999, 
+      "title": "The Matrix",
+      "year": 1999,
+      "genre": {
+        "id": "1",
+        "name": "Action"
+      },
       "rating": 8.7
     },
     {
       "id": "9",
-      "title": "Fast & Furius 5",
-      "year": 2001,  
+      "title": "Seven Samurai",
+      "year": 2001,
+      "genre": {
+        "id": "3",
+        "name": "Adventure"
+      },
       "rating": 8.7
     },
     {
       "id": "10",
-      "title": "Avengers: civil War",
-      "year": 2000,  
+      "title": "Forrest Gump",
+      "year": 2000,
+      "genre": {
+        "id": "5",
+        "name": "Drama"
+      },
       "rating": 8.7
     },
     {
       "id": "11",
-      "title": "Avengers: age of ultron",
-      "year": 2002,  
+      "title": "The Silence of the Lambs",
+      "year": 2002,
+      "genre": {
+        "id": "2",
+        "name": "Thriller"
+      },
       "rating": 8.6
     },
     {
       "id": "12",
-      "title": "Avengers: infinity war",
+      "title": "The Lion King",
       "rating": 8.5,
-      "year": 2001    
+      "year": 2001,
+      "genre": {
+        "id": "4",
+        "name": "Animation"
+      }
     },
     {
       "id": "13",
       "title": "Frozen",
-      "year": 2001,  
+      "year": 2001,
+      "genre": {
+        "id": "4",
+        "name": "Animation"
+      },
       "rating": 8.5
     },
     {
       "id": "14",
       "title": "Toy Story",
-      "year": 2001, 
+      "year": 2001,
+      "genre": {
+        "id": "4",
+        "name": "Animation"
+      },
       "rating": 8.5
     },
     {
       "id": "15",
       "title": "Sleeping Beauty",
-      "year": 2001,   
+      "year": 2001,
+      "genre": {
+        "id": "4",
+        "name": "Animation"
+      },
       "rating": 8.5
     },
     {
       "id": "16",
       "title": "The Harry Potter series",
       "year": 2001,
+      "genre": {
+        "id": "3",
+        "name": "Adventure"
+      },
       "rating": 8.7
     },
     {
       "id": "17",
       "title": "Jurassic Park series",
       "year": 2001,
+      "genre": {
+        "id": "3",
+        "name": "Adventure"
+      },
       "rating": 8.7
     },
     {
       "id": "18",
       "title": "Mission Impossible series",
       "year": 2001,
+      "genre": {
+        "id": "3",
+        "name": "Adventure"
+      },
       "rating": 8.7
     },
     {
       "id": "19",
       "title": "Good Will Hunting",
-      "year": 2001,  
+      "year": 2001,
+      "genre": {
+        "id": "5",
+        "name": "Drama"
+      },
       "rating": 8.9
     },
     {
       "id": "20",
       "title": " The Departed",
       "rating": 8.6,
-      "year": 2002
-   
+      "year": 2002,
+      "genre": {
+        "id": "2",
+        "name": "Thriller"
+      }
     },
     {
       "id": "EWOC8Gw",
       "title": "New Movie",
       "rating": "8.9",
-      "year": "2019"
- 
+      "year": "2019",
+      "genre": {
+        "id": "1",
+        "name": "Action"
+      }
     },
     {
       "id": "TTk_O61",
       "title": "new ",
       "rating": "2",
-      "year": "2020"
-    
+      "year": "2020",
+      "genre": {
+        "id": "5",
+        "name": "Drama"
+      }
+    }
+  ],
+  "genre": [
+    {
+      "id": "1",
+      "name": "Action"
+    },
+    {
+      "id": "2",
+      "name": "Thriller"
+    },
+    {
+      "id": "3",
+      "name": "Adventure"
+    },
+    {
+      "id": "4",
+      "name": "Animation"
+    },
+    {
+      "id": "5",
+      "name": "Drama"
+    },
+    {
+      "id": "6",
+      "name": "Crime"
+    }
+  ],
+  "users": [
+    {
+      "username": "hasnain",
+      "password": "hasnain@12",
+      "name": "Hasnain Khan",
+      "email": "hasnain@gmail.com",
+      "id": "cXotgi_"
+    },
+    {
+      "username": "Hasnain",
+      "email": "abc@admin.com",
+      "password": "11223344",
+      "name": "Hasnain",
+      "id": "GzK4hL3"
     }
   ]
 }
